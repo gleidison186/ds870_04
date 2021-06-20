@@ -1,0 +1,32 @@
+{
+  "name": "ds870_02",
+  "version": "1.0.0",
+  "description": "Entrega 02 - Gestor Médico",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./index.js",
+    "start": "node -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleidison186/ds870_02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleidison186/ds870_02/issues"
+  },
+  "homepage": "https://github.com/gleidison186/ds870_02#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
